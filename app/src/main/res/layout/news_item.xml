@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/general_4dp"
+    android:layout_marginStart="@dimen/general_4dp"
+    card:cardBackgroundColor="@color/customBackground"
+    card:cardCornerRadius="@dimen/general_4dp"
+    card:cardUseCompatPadding="true"
+    card:contentPadding="@dimen/general_4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_view_news_thumbnail"
+                android:layout_width="@dimen/news_image_width"
+                android:layout_height="@dimen/news_image_height"
+                android:layout_marginLeft="@dimen/general_4dp"
+                android:layout_marginStart="@dimen/general_4dp"
+                android:contentDescription="@string/content_news_thumbnail"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_view_news_section"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center"
+                        android:maxLines="1"
+                        android:padding="@dimen/general_4dp"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/customFontColor"
+                        card:fontFamily="casual"
+                        tools:text="@string/just_dummy_data" />
+
+                    <TextView
+                        android:id="@+id/text_view_news_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="end|center"
+                        android:maxLines="1"
+                        android:padding="@dimen/general_4dp"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/customFontColor"
+                        tools:text="@string/just_dummy_data" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_view_news_author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:maxLines="1"
+                    android:padding="@dimen/general_4dp"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/customFontColor"
+                    tools:text="@string/just_dummy_data" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:padding="@dimen/general_4dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            card:fontFamily="sans-serif"
+            tools:text="@string/just_dummy_data" />
+
+
+        <TextView
+            android:id="@+id/text_view_news_trial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:padding="@dimen/general_4dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            card:fontFamily="sans-serif"
+            tools:text="@string/just_dummy_data" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

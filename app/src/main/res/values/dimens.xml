@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="general_8dp" tools:keep="@dimen/general_8dp">8dp</dimen>
+    <dimen name="general_4dp">4dp</dimen>
+
+    <dimen name="nav_header_height">130dp</dimen>
+    <dimen name="news_image_width">100dp</dimen>
+    <dimen name="news_image_height">60dp</dimen>
+</resources>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MyNewsApp</string>
+
+    <string name="just_dummy_data">Just dummy data</string>
+
+    <string name="share_this_app">Share this app</string>
+
+    <string name="content_news_thumbnail">News thumbnail</string>
+
+    <!--Tool bar menu-->
+    <string name="refresh">Refresh</string>
+
+    <!--Navigation drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="news">News</string>
+    <string name="opinion">Opinion</string>
+    <string name="sport">Sport</string>
+    <string name="culture">Culture</string>
+    <string name="life_style">Lifestyle</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+
+    <!--About dialog-->
+
+    <!--Messages-->
+    <string name="no_news">No news found \n Tap to retry.</string>
+    <string name="no_connection">Check internet connection \n Tap here to retry.</string>
+
+    <!--Settings-->
+    <string name="action_settings">Settings</string>
+    <string name="order_news_by">Order news by</string>
+
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_number_of_news_label">Number of displayed news</string>
+    <string name="settings_number_of_news_key" translatable="false">number_of_news</string>
+    <string name="settings_number_of_news_default" translatable="false">10</string>
+    <string name="settings_show_thumbnail_label">Show thumbnail</string>
+    <string name="settings_show_thumbnail_key" translatable="false">show_thumbnail</string>
+
+    <string name="settings_show_thumbnail_summary">If you want to show the news thumbnail</string>
+
+    <string name="settings_show_trail_text_key" translatable="false">show_trail_text</string>
+    <string name="settings_show_trail_text_label">Show trial text</string>
+    <string name="settings_show_trail_text_summary">Select if you want to show a trial text from the news</string>
+    <string name="activity_title_settings">Settings</string>
+
+    <string name="guardian_api_settings">Guardian API Settings</string>
+
+
+    <string name="load_more">load More</string>
+    <string name="no_more_news">No more news</string>
+    <string name="settings_out_of_limits">The number should be from 1 to 50</string>
+    <string name="my_news_app">My News App</string>
+</resources>

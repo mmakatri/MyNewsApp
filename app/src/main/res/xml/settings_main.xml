@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/guardian_api_settings">
+
+        <ListPreference
+            android:defaultValue="@string/settings_order_by_default"
+            android:entries="@array/order_by_labels"
+            android:entryValues="@array/order_by_values"
+            android:key="@string/settings_order_by_key"
+            android:title="@string/order_news_by" />
+
+        <EditTextPreference
+            android:defaultValue="@string/settings_number_of_news_default"
+            android:inputType="numberDecimal"
+            android:key="@string/settings_number_of_news_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/settings_number_of_news_label" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/settings_show_thumbnail_key"
+            android:summary="@string/settings_show_thumbnail_summary"
+            android:title="@string/settings_show_thumbnail_label" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/settings_show_trail_text_key"
+            android:summary="@string/settings_show_trail_text_summary"
+            android:title="@string/settings_show_trail_text_label" />
+    </PreferenceCategory>
+</PreferenceScreen>

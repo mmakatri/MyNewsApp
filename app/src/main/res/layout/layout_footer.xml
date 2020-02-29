@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginEnd="@dimen/general_4dp"
+android:layout_marginStart="@dimen/general_4dp"
+card:cardBackgroundColor="@color/customBackground"
+card:cardCornerRadius="@dimen/general_4dp"
+card:cardUseCompatPadding="true"
+card:contentPadding="@dimen/general_4dp">
+
+    <Button
+        android:id="@+id/button_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_more"
+        android:textColor="@color/customColor"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</androidx.cardview.widget.CardView>
